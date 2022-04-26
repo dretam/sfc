@@ -1,0 +1,123 @@
+.slider h3,
+.slider h5 {
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+}
+
+.teksC {
+  text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.9);
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.parallax-container {
+  height: 30%;
+}
+
+.parallax img {
+  color: #1565c0;
+  opacity: 0.8 !important;
+}
+
+.clients img {
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+}
+
+section {
+  padding: 20px 0;
+}
+
+.foot {
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.container .nav-wrapper .brand-logo img {
+  width: 70px;
+  height: 50px;
+  margin-top: 4px;
+  margin-bottom: 1px;
+}
+
+.about .container .row .yt {
+  opacity: 0;
+  transform: translate(0, -50px);
+  transition: 0.5s;
+}
+
+.about .container .row .yt.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.clients .row .thumb {
+  opacity: 0;
+  transform: translate(0, -50px);
+  transition: 0.5s;
+}
+
+.clients .row .thumb.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.services .container .row .thumb {
+  opacity: 0;
+  transform: translate(0, -50px);
+  transition: 0.5s;
+}
+
+.services .container .row .thumb.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.contact .container .row .thumbnail {
+  opacity: 0;
+  transform: translate(0, -50px);
+  transition: 0.5s;
+}
+
+.contact .container .row .thumbnail.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.faq .container .row .thumbnail {
+  opacity: 0;
+  transform: translate(0, -50px);
+  transition: 0.5s;
+}
+
+.faq .container .row .thumbnail.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+@media (max-width: 600px) {
+  .container .nav-wrapper .brand-logo img {
+    width: 70px;
+    height: 50px;
+  }
+
+  .container .row .col .video {
+    width: 350px;
+  }
+
+  .slider .slides .caption h4,
+  h5,
+  h6 {
+    text-align: left;
+  }
+
+  .slider .slides .caption {
+    margin-top: -20px;
+  }
+}
+
+@font-face {
+  font-family: "Lemon/Milk";
+  src: url("http://www.fontsaddict.com/fontface/lemonmilk.ttf");
+}
